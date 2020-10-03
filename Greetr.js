@@ -95,7 +95,7 @@
         
         HTMLGreeting: function(selector, formal) {
             if (!$) {
-                throw 'jQuery not loaded';   
+                throw 'jQuery is not getting loaded';   
             }
             
             if (!selector) {
